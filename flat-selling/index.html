@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flat Selling Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Flat Selling Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listings.html">Flat Listings</a></li>
+                <li><a href="add_flat.html">Add Flat</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Find Your Perfect Flat</h2>
+            <form id="searchForm">
+                <input type="text" id="location" placeholder="Location" required>
+                <input type="number" id="price" placeholder="Max Price" required>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        <section id="searchResults"></section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Flat Selling Platform</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

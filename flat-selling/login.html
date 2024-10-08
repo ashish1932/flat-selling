@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Flat Selling Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Flat Selling Platform - Login</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listings.html">Flat Listings</a></li>
+                <li><a href="add_flat.html">Add Flat</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form action="/login.js" id="loginForm">
+                <h2>Login to Your Account</h2>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+
+                <p>Don't have an account? <a href="register.html">Register here</a></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Flat Selling Platform</p>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Flat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Add Your Flat for Sale</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listings.html">Flat Listings</a></li>
+                <li><a href="add_flat.html">Add Flat</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="addFlatForm">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required>
+
+            <label for="size">Size (sq ft):</label>
+            <input type="number" id="size" name="size" required>
+
+            <label for="rooms">Number of Rooms:</label>
+            <input type="number" id="rooms" name="rooms" required>
+
+            <button type="submit">Add Flat</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Flat Selling Platform</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
